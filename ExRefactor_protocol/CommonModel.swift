@@ -25,3 +25,28 @@ extension CommonModel: VC2Modelable {
 extension CommonModel: VC3Modelable {
     
 }
+
+// exmaple - bad
+/*
+struct Vc2Model {
+    let date: String
+    let message: String
+}
+
+extension CommonModel {
+    var toVc2Model: Vc2Model {
+        .init(date: date, message: message)
+    }
+}
+
+struct Vc3Model {
+    let age: Int
+    let name: String
+}
+
+extension CommonModel {
+    var toVc3Model: Vc3Model {
+        .init(age: age, name: name)
+    }
+}
+*/

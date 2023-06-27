@@ -19,10 +19,10 @@ class ViewController: UIViewController {
             imageData: Data(),
             message: "message1"
         )
-        
+
         let vc2 = VC2()
         vc2.updateUI(model: myModel)
-        
+
         let vc3 = VC3()
         vc3.updateUI(model: myModel)
     }
